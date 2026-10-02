@@ -1,0 +1,41 @@
+# Spotlight
+
+> Spotlight is a media & marketing intelligence agency. It runs digital marketing, PR & coverage monitoring, creative production and influencer coordination through one connected, automation-ready system — automation on the repetitive pipes, a human approval gate on every decision that matters (publish, spend, send).
+
+Spotlight is organized around four service lines, an automation-ready systems layer, and a small set of operating principles. Content below mirrors the on-page copy so it can be summarized or quoted accurately.
+
+## Services
+
+- **Digital Marketing** (flagship): content calendars built from past performance, on-brand copy drafts, scheduling & publishing across platforms, ad budget pacing recommendations, live client-facing reporting. Final publish and spend approval is always human.
+- **PR & Coverage**: trade press & social mention monitoring, daily sentiment digest, journalist-beat matching suggestions. Spotlight never automates pitching a journalist — that stays human.
+- **Creative**: auto-resize across platform specs, AI-assisted rough cuts for Reels/Shorts, templated social design. Final polish and brand judgment stay human.
+- **Influencer**: data-driven influencer discovery, brief-to-approval deliverable tracking. Negotiation with creators stays human.
+
+## Automation readiness
+
+Every workflow ships with an API and a webhook. Spotlight's tooling is built to connect to n8n or another agentic orchestrator, or to a client's own CRM, from day one — no bespoke integration project required. The site is also Meta Ads-ready: Open Graph tags for clean creative previews, UTM-friendly links, and a Meta Pixel integration point ready to activate.
+
+## How Spotlight works (operating principles)
+
+1. Pipes, not people — tooling covers data, drafts and monitoring; never pitching, negotiation, or judgment calls.
+2. Buy before we build — off-the-shelf tools by default; custom software only where it creates a lasting advantage.
+3. Thin, then iterate — ship the smallest useful version and improve from there; no six-month builds.
+4. A human approves — every AI-drafted output is labeled a draft until a person on the client's team clicks approve.
+
+## Who it's for
+
+Lean in-house marketing teams, growth-stage brands scaling past founder-led marketing, and multi-brand operators who need one system tracking coverage and deliverables instead of several disconnected spreadsheets.
+
+## The Marquee (blog, news, events)
+
+A running feed of Spotlight's own writing, company news, and events, found at /#dispatch. The feed is rendered from a small content list in the page today and is designed to be swapped for a live JSON endpoint (e.g. an n8n webhook) without any other change to the page.
+
+## Contact
+
+- Email: hello@spotlight.agency
+- Site: https://www.spotlight.agency/
+
+## Optional
+
+- Full FAQ and service detail: https://www.spotlight.agency/#faq
+- Structured data (JSON-LD: ProfessionalService, WebSite, FAQPage, Blog/BlogPosting, Event) is embedded in the page `<head>` for machine-readable detail beyond this summary.

@@ -1,0 +1,34 @@
+# Spotlight — robots.txt
+# Standard search crawlers: fully allowed.
+User-agent: *
+Allow: /
+
+# ===== Answer engines / AI assistants (AEO & GEO) =====
+# Explicitly allowed so Spotlight can be cited, quoted, and summarized
+# accurately by AI search and answer engines. Remove/disallow any of
+# these individually if that ever becomes undesirable.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.spotlight.agency/sitemap.xml
